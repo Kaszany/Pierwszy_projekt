@@ -9,11 +9,27 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
 <link rel="stylesheet" href="style.css" type="text/css"/>
 <link rel="stylesheet" href="css/fontello.css" type="text/css"/>
+<script type="text/javascript">
+
+    function odswiezanie(){
+
+    var zegar = new Date();
+
+    var godzina = zegar.getHours();
+    var minuty = zegar.getMinutes();
+    var sekundy = zegar.getSeconds();
+
+    document.getElementById("czas").innerHTML = godzina+":"+minuty+":"+sekundy;
+    
+    setTimeout("odswiezanie()",1000);
+    
+    }
+</script>
 </head>
 
 
 
-<body>
+<body onload="odswiezanie();">
 
 <div id="container"> 
         <div class="belka gornabelka">
@@ -43,6 +59,13 @@
         
             <p>Nam pellentesque sodales ipsum placerat consequat. Aliquam viverra iaculis justo. Quisque auctor justo id ex laoreet faucibus. Sed fermentum maximus sapien, eu volutpat leo egestas et. Pellentesque ultricies, purus nec iaculis sagittis, erat massa sagittis purus, a dictum velit magna eget nibh. Donec eleifend a velit sed hendrerit. Pellentesque vitae augue faucibus, lobortis est nec, commodo augue. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
             Morbi non malesuada augue. Donec gravida facilisis mi quis tristique. Donec eget vehicula elit. Nullam et gravida justo, non tincidunt nulla. Cras cursus nunc id arcu convallis facilisis. Curabitur tincidunt iaculis purus, a dapibus metus ultrices tempus. Vivamus commodo dictum urna ac egestas. Mauris et tortor nisl. Etiam pretium nisl vel nisl molestie, mattis volutpat lectus pharetra. Duis dictum metus sem, eu tempor sem tempor nec. Maecenas tortor dolor, lacinia a neque at, dignissim euismod orci. Aenean ut dapibus turpis, in hendrerit nulla. Phasellus condimentum ante nibh, vitae pellentesque leo pharetra ac. Praesent a lacinia nibh. Sed volutpat dictum ligula, sed tempus mi pharetra sed. Maecenas ut accumsan nunc, a fermentum nisi.</p>
+        </br>
+        <h3><div id="czas"></div></h3>
+        <script type="text/javascript">
+
+        document.getElementById("czas").innerHTML = godzina+":"+minuty+":"+sekundy;
+        
+        </script>
         </div>
         <div class="belka belkadolna">
             <ul>

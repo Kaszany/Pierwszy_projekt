@@ -81,7 +81,7 @@ justify-content: center;
 flex-wrap: wrap;
 font-size: 1em;
 word-wrap:break-word;
-padding: 30px;
+padding: 25px;
 box-sizing: border-box;
 
 }
@@ -146,7 +146,7 @@ font-size: 20px;
 
 .gornabelka a:link{    
 text-decoration: none;
-margin-right: 5px;
+margin-right: 10px;
 }
 
 .belkadolna a:link{    
