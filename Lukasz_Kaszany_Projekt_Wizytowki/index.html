@@ -16,8 +16,11 @@
     var zegar = new Date();
 
     var godzina = zegar.getHours();
-    var minuty = zegar.getMinutes();
-    var sekundy = zegar.getSeconds();
+     if(godzina<10) godzina = "0"+godzina;
+     var minuty = zegar.getMinutes();
+     if(minuty<10) minuty = "0"+minuty;
+     var sekundy = zegar.getSeconds();
+     if(sekundy<10) sekundy = "0"+sekundy;
 
     document.getElementById("czas").innerHTML = godzina+":"+minuty+":"+sekundy;
     
