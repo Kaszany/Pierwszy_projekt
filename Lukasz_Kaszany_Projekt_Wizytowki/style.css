@@ -1,6 +1,7 @@
 body{
 margin: 0 auto; 
 background: azure;
+background-image: url(email-pattern.png);/* Background pattern from Toptal Subtle Patterns */
 }
 
 h3{
