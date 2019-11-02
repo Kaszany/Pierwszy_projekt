@@ -36,13 +36,13 @@ box-sizing: border-box;
 width: 100vh;
 height: 2.5rem;
 font-size: 25px;
-background-color:rgb(158, 199, 223);
-color: rgb(99, 90, 14);
+color: rgb(99, 90, 14); 
 align-content: center;
 justify-content: center;
 flex-wrap: wrap;
 flex-grow:1;
 flex-shrink: 1;
+background: url(mochaGrunge.png);/* Background pattern from Toptal Subtle Patterns */
 
 }
 
@@ -75,7 +75,7 @@ margin: 0 auto;
 }
 
 .tekst{
-background-color: rgb(159, 182, 173);
+background: url(cloth_alike.png);/* Background pattern from Toptal Subtle Patterns */
 display: flex;
 align-content: center;
 justify-content: center;
@@ -88,13 +88,36 @@ box-sizing: border-box;
 }
 
 .photo2:hover {
-    transform: scale(.7) rotate(10deg);
-    -webkit-transition-duration:2s;
+    transform: scale(0.7) rotate(20deg);
+    -webkit-transition-duration:3s;
 }   
 
-.photo:hover {
-    transform: scale(0.7) rotate(-360deg);
-    -webkit-transition-duration:5s;
+.photo {
+
+    margin: 7px;
+}
+
+.photo2 {
+
+    margin: 7px;
+}
+
+.photoa:hover {
+    transform: scale(1.25) rotate(-25deg);
+    -webkit-transition-duration:2s;
+}
+
+
+.photob:hover {
+    transform: scale(1.25) rotate(25deg);
+    -webkit-transition-duration:2s;
+}
+
+
+
+.photoc:hover {
+    transform: scale(1.25);
+    -webkit-transition-duration:2s;
 }
 
 .cwiartka2 {
@@ -108,7 +131,8 @@ box-sizing: border-box;
 display: flex;
 align-content: center;
 justify-content: center; 
-box-sizing: border-box;   
+box-sizing: border-box; 
+flex-direction:column;  
 }
 
 .belkadolna{
@@ -140,7 +164,7 @@ border-top: rgb(153, 138, 119) 2px solid;
 border-bottom: rgb(153, 138, 119) 2px solid;
 box-sizing: border-box;
 font-family: Arial, Helvetica, sans-serif;
-
+background: url(cloth_alike.png);/* Background pattern from Toptal Subtle Patterns */
 font-size: 20px;   
 }
 
@@ -168,7 +192,7 @@ margin-right: 20px;
     #czas{
 
         font-style: italic;
-        color: rgb(161, 236, 230);
+        color: black;
     
         
     }
