@@ -6,7 +6,6 @@ background-image: url(email-pattern.png);/* Background pattern from Toptal Subtl
 
 h3{
 font-family: Arial, Helvetica, sans-serif;
-
 text-transform: uppercase;
 }
 
@@ -15,8 +14,8 @@ color:black
 }
 
 a{
-    color:black
-    }
+color:black
+}
 
 #container{
 display:flex;
@@ -26,12 +25,9 @@ height: 100vh;
 color: black;
 font-size: 15px;
 font-family: sans-serif;
-
 }
 
 .belka{
-/*flex: 1;
-flex-grow: 1;*/
 box-sizing: border-box;
 width: 100vh;
 height: 2.5rem;
@@ -43,7 +39,6 @@ flex-wrap: wrap;
 flex-grow:1;
 flex-shrink: 1;
 background: url(mochaGrunge.png);/* Background pattern from Toptal Subtle Patterns */
-
 }
 
 .cwiartka{
@@ -52,18 +47,13 @@ height: calc(50%-80px);
 background-color:rgba(185, 183, 183, 0.014);
 flex-grow:1;
 flex-shrink: 1;
-
 text-align: center;
 align-items: center;
-
 }
 
-
 .cwiartka p{
-    text-align: justify;
-    
-    }
-
+text-align: justify;  
+}
 
 .box{
 display: flex;
@@ -84,40 +74,34 @@ font-size: 1em;
 word-wrap:break-word;
 padding: 25px;
 box-sizing: border-box;
-
 }
 
-.photo2:hover {
-    transform: scale(0.7) rotate(20deg);
-    -webkit-transition-duration:3s;
+.photo2:hover{
+transform: scale(0.7) rotate(20deg);
+transition-duration:3s;
 }   
 
-.photo {
-
-    margin: 7px;
+.photo{
+margin: 7px;
 }
 
-.photo2 {
-
-    margin: 7px;
+.photo2{
+margin: 7px;
 }
 
 .photoa:hover {
-    transform: scale(1.25) rotate(-25deg);
-    -webkit-transition-duration:2s;
+transform: scale(1.25) rotate(-25deg);
+transition-duration:2s;
 }
-
 
 .photob:hover {
-    transform: scale(1.25) rotate(25deg);
-    -webkit-transition-duration:2s;
+transform: scale(1.25) rotate(25deg);
+transition-duration:2s;
 }
 
-
-
 .photoc:hover {
-    transform: scale(1.25);
-    -webkit-transition-duration:2s;
+transform: scale(1.25);
+transition-duration:2s;
 }
 
 .cwiartka2 {
@@ -145,7 +129,6 @@ font-size: 20px;
 border-top: rgb(153, 138, 119) 2px solid;
 border-bottom: rgb(153, 138, 119) 2px solid;
 box-sizing: border-box;
-
 }
 
 .belkadolna a:hover {
@@ -153,8 +136,8 @@ color:rgb(226, 213, 170);
 }
 
 .gornabelka a:hover {
-    color:rgb(226, 213, 170);   
-    }
+color:rgb(226, 213, 170);   
+}
 
 .gornabelka{
 display: flex;
@@ -168,7 +151,6 @@ background: url(cloth_alike.png);/* Background pattern from Toptal Subtle Patter
 font-size: 20px;   
 }
 
-
 .gornabelka a:link{    
 text-decoration: none;
 margin-right: 10px;
@@ -180,20 +162,16 @@ margin-right: 20px;
 }
 
 .cwiartka a:link{
-    text-decoration: none;
-    margin-right: 20px;
-
+text-decoration: none;
+margin-right: 20px;
 }
 
 .cwiartka a:hover {
-    color:rgb(226, 213, 170);   
-    }
+color:rgb(226, 213, 170);   
+}
 
-    #czas{
-
-        font-style: italic;
-        color: black;
-    
-        
-    }
+#czas{
+font-style: italic;
+color: black;
+}
 
